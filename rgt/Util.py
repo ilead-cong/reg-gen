@@ -44,7 +44,7 @@ def npath(filename):
 
 
 def get_rgtdata_path():
-    return os.path.expanduser(os.getenv("RGTDATA", os.path.join(os.getenv("HOME"), "rgtdata")))
+    return "/software/rgtdata"
 
 
 class ConfigurationFile:
